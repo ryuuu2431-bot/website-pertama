@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #090d18;
+  color: white;
+}
+
+header {
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  border-bottom: 2px solid #e63946;
+}
+
+.logo {
+  color: #ff394b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 75px 20px;
+  background: linear-gradient(135deg, #171d31, #390d19);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero span {
+  color: #ff394b;
+}
+
+.hero p {
+  color: #c4c8d3;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #151c2c;
+  border-radius: 15px;
+}
+
+h2, h3 {
+  color: #ff394b;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  background: #0c1220;
+  border: 1px solid #343d52;
+  border-radius: 7px;
+  color: white;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #e63946;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5360;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #8992a5;
+}
+
+@media(max-width: 600px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    margin: 20px 12px;
+    padding: 22px;
+  }
+}
